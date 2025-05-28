@@ -18,7 +18,7 @@ In your Github workflow file, please add the following step after running specma
 
 ```yaml
 - name: Run Specmatic Insights Github Build Reporter
-  uses: znsio/specmatic-insights-build-reporter-github-action@v2.0.2
+  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.0.2
   with:
     github-token: ${{ secrets.YOUR_GITHUB_TOKEN }}
     branch-ref: refs/heads/main
@@ -26,14 +26,14 @@ In your Github workflow file, please add the following step after running specma
     build-id: 9245136138
     repo-name: specmatic-order-bff-java
     repo-id: 636154288
-    repo-url: https://github.com/znsio/specmatic-order-bff-java
+    repo-url: https://github.com/specmatic/specmatic-order-bff-java
 ```
 
 If you need to specify the addition arguments, then this is a sample:
 
 ```yaml
 - name: Run Specmatic Insights Github Build Reporter
-  uses: znsio/specmatic-insights-build-reporter-github-action@v2.0.2
+  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.0.2
   with:
     github-token: ${{ secrets.YOUR_GITHUB_TOKEN }}
     specmatic-insights-host: https://custom-insights-service.com
@@ -43,5 +43,5 @@ If you need to specify the addition arguments, then this is a sample:
     build-id: 9245136138
     repo-name: specmatic-order-bff-java
     repo-id: 636154288
-    repo-url: https://github.com/znsio/specmatic-order-bff-java
+    repo-url: https://github.com/specmatic/specmatic-order-bff-java
 ```
