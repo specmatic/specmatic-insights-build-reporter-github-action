@@ -15,7 +15,7 @@ In your Github workflow file, please add the following step after running specma
 
 ```yaml
 - name: Run Specmatic Insights Github Build Reporter
-  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.1.0
+  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.2.0
   with:
     org-id: ${{ secrets.SPECMATIC_ORG_ID }}
     branch-name: ${{ github.ref_name }}
@@ -28,7 +28,7 @@ If you need to specify the addition arguments, then this is a sample:
 
 ```yaml
 - name: Run Specmatic Insights Github Build Reporter
-  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.1.0
+  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.2.0
   with:
     org-id: ${{ secrets.SPECMATIC_ORG_ID }}
     specmatic-insights-host: https://custom-insights-service.com
@@ -42,7 +42,7 @@ After substitution this is what it would look like:
 
 ```yaml
 - name: Run Specmatic Insights Github Build Reporter
-  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.1.0
+  uses: specmatic/specmatic-insights-build-reporter-github-action@v2.2.0
   with:
     org-id: '*****'
     specmatic-insights-host: https://custom-insights-service.com
