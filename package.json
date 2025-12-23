@@ -1,11 +1,11 @@
 {
     "name": "specmatic-insights-build-reporter-github-action",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "main": "index.js",
     "dependencies": {
         "@actions/core": "^1.11.1",
         "@vercel/ncc": "^0.38.3",
-        "specmatic-insights-github-build-reporter": "^1.1.2"
+        "specmatic-insights-github-build-reporter": "^1.1.3"
     },
     "scripts": {
         "package": "npx @vercel/ncc build index.js -o dist"
