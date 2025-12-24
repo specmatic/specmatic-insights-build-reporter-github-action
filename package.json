@@ -3,7 +3,7 @@
     "version": "2.2.1",
     "main": "index.js",
     "dependencies": {
-        "@actions/core": "^1.11.1",
+        "@actions/core": "^2.0.0",
         "@vercel/ncc": "^0.38.3",
         "specmatic-insights-github-build-reporter": "^1.1.3"
     },
